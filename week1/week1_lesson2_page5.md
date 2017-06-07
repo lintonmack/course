@@ -15,7 +15,7 @@ table {
 And now let's resize our images to 100%:
 
 ```css
-table > img {
+table img {
   width: 100%;
 }
 ```
