@@ -21,7 +21,7 @@
 ## Week 2
 
 ### Bootstrap
-* [Part 1](https://github.com/MCRcodes/course/blob/master/week1/week2_lesson1_page1.md)
-* [Part 2](https://github.com/MCRcodes/course/blob/master/week1/week2_lesson1_page2.md)
-* [Part 3](https://github.com/MCRcodes/course/blob/master/week1/week2_lesson1_page3.md)
-* [Part 4](https://github.com/MCRcodes/course/blob/master/week1/week2_lesson1_page4.md)
+* [Part 1](https://github.com/MCRcodes/course/blob/master/week2/week2_lesson1_page1.md)
+* [Part 2](https://github.com/MCRcodes/course/blob/master/week2/week2_lesson1_page2.md)
+* [Part 3](https://github.com/MCRcodes/course/blob/master/week2/week2_lesson1_page3.md)
+* [Part 4](https://github.com/MCRcodes/course/blob/master/week2/week2_lesson1_page4.md)
