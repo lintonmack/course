@@ -10,6 +10,10 @@ Link the remote repo to your local:
 git remote add origin git@github.com:<username>/<repo_name>.git
 git push -u origin master
 
+Adding a collaborator
+------
+The person who isn't the owner of the repository will need to be added as a collaborator. On your repo page on GitHub, click Settings then Collaborators and search for your pair and click Add collaborator. Your pair will need to check their email inbox to accept the invitation before they can contribute to the repository.
+
 Overriding Bootstrap CSS
 ------
 Firstly, create your own style.css file and include it in your head tags. IMPORTANT We want to override Boostraps`s CSS - because CSS is cascading, make sure you place the link tag for your style.css after your Bootstrap CDN link include.
