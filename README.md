@@ -25,3 +25,7 @@
 * [Part 2](https://github.com/MCRcodes/course/blob/master/week2/week2_lesson1_page2.md)
 * [Part 3](https://github.com/MCRcodes/course/blob/master/week2/week2_lesson1_page3.md)
 * [Part 4](https://github.com/MCRcodes/course/blob/master/week2/week2_lesson1_page4.md)
+
+### Git
+
+* [Overview](https://github.com/MCRcodes/course/blob/master/week2/week2_lesson2_page1.md)
