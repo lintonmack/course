@@ -1,10 +1,34 @@
-Initialising a Git repository - only one person to do this!
+Check if Git is installed - both people
 ------
-To create a Git repository, `cd` into your project folder (visit-manchester) and type `git init`. 
+```
+git config —list
+```
+
+Installing Git - both people
+------
+Installing on Ubuntu/Linux Mint:
+```
+sudo apt-get install git-all
+```
+
+[Download for Mac](https://git-scm.com/download/mac)
+
+Configuring Git - both people
+------
+Change to your name and email:
+```
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+git config --global core.editor nano
+```
 
 Set up SSH keys for GitHub - Both people need to do this
 ------
 To push and pull from GitHub (our remote) you will need to generate an SSH key on your machine and link it to your GitHub account. GitHub have a detailed guide on how to do this [here](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/). Be sure to click the link on the last step to link your account.
+
+Initialising a Git repository - only one person to do this!
+------
+To create a Git repository, `cd` into your project folder (visit-manchester) and type `git init`. 
 
 Creating a remote - only the person who initialised the repo to do this
 ------
