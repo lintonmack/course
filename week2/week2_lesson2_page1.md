@@ -26,6 +26,8 @@ Right click on the page and select Inspect. The Chrome developer tools will open
 
 In the open HTML editor select the nav element (`<nav class="navbar navbar-default">`). Below in the CSS editor you should see the CSS rules for the element. Here you can click the checkboxes next to each property/value pair to see what effect it has on the page. Copy the selector into your **style.css** (double click) and add property/value pairs for `border: 0px;`, `border-radius: 0px;`, `background-color: #000;` and `color: #FFF;`. 
 
+Reflecting the change in your repository
+------
 In your command line do `git add style.css` to sstage the file to your index, and then do `git commit -m "Header styling changed"` to commit the staged file to your repository. Then do a `git push origin master`. Your pair will need to clone down the repository from GitHub (`git clone <url_of_repository>`) and then you should swap.
 
 Between you and your pair work to restyle all of the Visit Manchester website. You`ve already styled the navigation. On the homepage why not try giving the jumbotron a different background color or image? How about giving the background and border colours on the Things To Do page a different colour?
