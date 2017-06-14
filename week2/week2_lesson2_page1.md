@@ -7,8 +7,10 @@ Creating a remote
 Login to GitHub, click + in the navigation bar and select New Repository (both people should do this).
 
 Link the remote repo to your local:
+```
 git remote add origin git@github.com:<username>/<repo_name>.git
 git push -u origin master
+```
 
 Adding a collaborator
 ------
@@ -16,13 +18,13 @@ The person who isn't the owner of the repository will need to be added as a coll
 
 Overriding Bootstrap CSS
 ------
-Firstly, create your own style.css file and include it in your head tags. IMPORTANT We want to override Boostraps`s CSS - because CSS is cascading, make sure you place the link tag for your style.css after your Bootstrap CDN link include.
+Firstly, create your own **style.css** file and include it in your head tags. **IMPORTANT** We want to override Boostraps`s CSS - because CSS is cascading, make sure you place the link tag for your **style.css** after your Bootstrap CDN link include.
 
-Open up your index.html file in Chrome (download Chrome if you don`t already have it installed!!).
+Open up your **index.html** file in Chrome (download Chrome if you don`t already have it installed!!).
 
 Right click on the page and select Inspect. The Chrome developer tools will open.
 
-In the open HTML editor select the nav element (`<nav class="navbar navbar-default">`). Below in the CSS editor you should see the CSS rules for the element. Here you can click the checkboxes next to each property/value pair to see what effect it has on the page. Copy the selector into your style.css (double click) and add property/value pairs for `border: 0px;`, `border-radius: 0px;`, background-color: #000;` and `color: #FFF;`. 
+In the open HTML editor select the nav element (`<nav class="navbar navbar-default">`). Below in the CSS editor you should see the CSS rules for the element. Here you can click the checkboxes next to each property/value pair to see what effect it has on the page. Copy the selector into your **style.css** (double click) and add property/value pairs for `border: 0px;`, `border-radius: 0px;`, `background-color: #000;` and `color: #FFF;`. 
 
 In your command line do `git add style.css` to sstage the file to your index, and then do `git commit -m "Header styling changed"` to commit the staged file to your repository. Then do a `git push origin master`. Your pair will need to clone down the repository from GitHub (`git clone <url_of_repository>`) and then you should swap.
 
