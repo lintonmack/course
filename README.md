@@ -29,3 +29,8 @@
 ### Git
 
 * [Overview](https://github.com/MCRcodes/course/blob/master/week2/week2_lesson2_page1.md)
+
+## Week 3
+
+### JavaScript - Variables and Conditional Logic
+* [Overview](https://github.com/MCRcodes/course/blob/master/week3/week3_lesson1_page1.md)
