@@ -37,3 +37,6 @@
 ### JavaScript - Variables and Conditional Logic
 * [Lecture](https://docs.google.com/presentation/d/1-LTcQkveoqUZA26U4eNe14I2fYc_KJK72kSOPgod3As/edit?usp=sharing)
 * [Overview](https://github.com/MCRcodes/course/blob/master/week3/week3_lesson1_page1.md)
+
+### JavaScript - Decisions, Arrays, Loops and Functions
+* [Lecture](https://docs.google.com/presentation/d/1GBLEBnwQev6ep_umI1OglIJMnk0-L8y0ka200885u9E/edit?usp=sharing)
