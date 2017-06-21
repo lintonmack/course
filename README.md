@@ -40,3 +40,6 @@
 
 ### JavaScript - Decisions, Arrays, Loops and Functions
 * [Lecture](https://docs.google.com/presentation/d/1GBLEBnwQev6ep_umI1OglIJMnk0-L8y0ka200885u9E/edit?usp=sharing)
+* [To-do List: Set Up](https://github.com/MCRcodes/course/blob/master/week3/week3_lesson2_page1.md)
+* [To-do List: Add Items](https://github.com/MCRcodes/course/blob/master/week3/week3_lesson2_page2.md)
+* [To-do List: List Items](https://github.com/MCRcodes/course/blob/master/week3/week3_lesson2_page3.md)
