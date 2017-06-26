@@ -4,7 +4,7 @@ Partner pulls
 ------
 Again, the person who is now driving will need to pull their partner's changes. They to will need to add their partner's GitHub repo as a *remote* and pull down:
 ```
-git remote add <partnersName> git+ssh://git@github.com/<username>/toDoList.git
+git remote add <partnersName> https://github.com/<username>/toDoList
 git pull <partnersName> master
 ```
 

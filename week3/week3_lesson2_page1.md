@@ -16,7 +16,7 @@ On GitHub, add a new repository (the + icon). Give your repository the same name
 
 Now you need to link your *local* repository to your *remote* repository (replacing `<username>` with your username):
 ```bash
-git remote add origin git+ssh://git@github.com/<username>/toDoList.git
+git remote add origin https://github.com/<username>/toDoList
 ```
 
 Verify your remote is set up correctly with `git remote -v`.

@@ -1,6 +1,6 @@
 :twisted_rightwards_arrows: **Driver and Navigator switch roles if you haven't already done so**
 
-Firstly, do a `git pull` so you have your partner's changes.
+Firstly, do a `git pull <partnerName> master` so you have your partner's changes.
 
 Displaying to-do items
 ------
