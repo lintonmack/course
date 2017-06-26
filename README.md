@@ -43,3 +43,13 @@
 * [To-do List: Set Up](https://github.com/MCRcodes/course/blob/master/week3/week3_lesson2_page1.md)
 * [To-do List: Add Items](https://github.com/MCRcodes/course/blob/master/week3/week3_lesson2_page2.md)
 * [To-do List: List Items](https://github.com/MCRcodes/course/blob/master/week3/week3_lesson2_page3.md)
+
+## Week 4
+
+### JavaScript - Objects
+
+* [Lecture](https://docs.google.com/presentation/d/1Fwcno6NrreUBqVcew___gRe9VzaACdV-R5OGr_YOJoE/edit?usp=sharing)
+* [Till: Part 1](https://github.com/MCRcodes/course/blob/master/week4/week4_lesson1_page1.md)
+* [Till: Part 2](https://github.com/MCRcodes/course/blob/master/week4/week4_lesson1_page2.md)
+* [Till: Part 3](https://github.com/MCRcodes/course/blob/master/week4/week4_lesson1_page3.md)
+* [Till: Part 4](https://github.com/MCRcodes/course/blob/master/week4/week4_lesson1_page4.md)
