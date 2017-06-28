@@ -53,3 +53,8 @@
 * [Till: Part 2](https://github.com/MCRcodes/course/blob/master/week4/week4_lesson1_page2.md)
 * [Till: Part 3](https://github.com/MCRcodes/course/blob/master/week4/week4_lesson1_page3.md)
 * [Till: Part 4](https://github.com/MCRcodes/course/blob/master/week4/week4_lesson1_page4.md)
+
+### Recap and Challenges
+
+* [Lecture](https://docs.google.com/presentation/d/1ylG31fk1ZtB-jrNGPzlu9vQVX54Be9f1RNkimiY4Fuw/edit?usp=sharing)
+* [Challenges](https://github.com/MCRcodes/course/blob/master/week4/week4_lesson2.md)

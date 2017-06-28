@@ -16,7 +16,7 @@ Why JSBin? We can execute JavaScript code in our Chrome developer tools, but to 
 
 ## [Number of words in a sentence](https://github.com/MCRcodes/course/blob/master/week4/challenges/words_in_a_sentence.md)
 
-## [Reverse words in a sentence](https://github.com/MCRcodes/course/blob/master/week4/challenges/words_in_a_sentence.md)
+## [Reverse words in a sentence](https://github.com/MCRcodes/course/blob/master/week4/challenges/reverse_sentence_words.md)
 
 ## [Egg Timer](https://github.com/MCRcodes/course/blob/master/week4/challenges/egg_timer.md)
 
