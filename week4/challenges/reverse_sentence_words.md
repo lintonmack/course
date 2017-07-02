@@ -1,6 +1,6 @@
 Reverse the words in a sentence
 ------
-Add code to the function below that takes the sentence parameter, reverses the words in the string, and returns the new string.
+Add code to the function below that takes the sentence parameter, reverses the **order** of the words in the string, and returns the new string.
 
 ```js
 function reverseSentenceWords (sentence) {
