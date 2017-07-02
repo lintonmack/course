@@ -58,3 +58,10 @@
 
 * [Lecture](https://docs.google.com/presentation/d/1ylG31fk1ZtB-jrNGPzlu9vQVX54Be9f1RNkimiY4Fuw/edit?usp=sharing)
 * [Challenges](https://github.com/MCRcodes/course/blob/master/week4/week4_lesson2.md)
+
+## Week 5
+
+* [Lecture](https://docs.google.com/presentation/d/1HieiTaIhCCrpM4xBTECKPC54iLJUDUn40M20umD2ji0/edit?usp=sharing)
+* [Metrolink: Part 1](week5/lesson1_page1.md)
+* [Metrolink: Part 2](week5/lesson1_page2.md)
+* [Metrolink: Part 3](week5/lesson1_page3.md)

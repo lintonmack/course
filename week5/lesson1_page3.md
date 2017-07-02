@@ -160,7 +160,7 @@ This is essentially just calling the `getStations()` method on the `piccadillyTo
 
 ## Finished?
 
-If you have finished then why not add some more functionality?
+Get some practise *instantiating* (creating new instances) objects by replicating a real Metrolink route. If you have want more of a challenge then why not attempt the below?
 
 ### 'This is the service from Eccles to Ashton-under-Lyne. Now arriving at: Holt Town'
 * Add a method to the `Route` prototype called `getStartingStation`, which returns the first station in the `_stations` array.
