@@ -87,9 +87,7 @@ function Station (name) {
 }
 
 Station.prototype = {
-  getName: function () {
-    return this._name
-  }
+
 }
 ```
 
@@ -138,7 +136,7 @@ What is happening here?
 
 We've defined an object called `Station`, which has a prototype where we define our methods. Station also has a constructor, where we define the properties that **new instances** of the Station object will have. In other words, our Station object itself doesn't have properties - only methods.
 
-When we create a new instance of our `Station` object (with the `new` keyword), our new object assigned to `piccadillyGardens` **inherits** the **constructor** of it's parent `Station` object. This constructor sets the properties of the new object, in this case it sets a `_name` property with the value of `Piccadilly Gardens` as this was the argument passed into the constructor. 
+When we create a new instance of our `Station` object (with the `new` keyword), our new object assigned to `piccadillyGardens` uses the **constructor** of the parent `Station` object. This constructor sets the properties of the new object, in this case it sets a `_name` property with the value of `Piccadilly Gardens` as this was the argument passed into the constructor. 
 
 Our new object doesn't have its own methods. Rather, it **inherits** the methods from the parent `Station` object's prototype.
 ***
