@@ -67,3 +67,10 @@
 * [Metrolink: Part 1](week5/lesson1_page1.md)
 * [Metrolink: Part 2](week5/lesson1_page2.md)
 * [Metrolink: Part 3](week5/lesson1_page3.md)
+
+### jQuery
+
+* [Lecture](https://docs.google.com/presentation/d/1q0PPFHq_FkJC3317iu_74uKMTq3PADGT2HyPq0YhI1c/edit?usp=sharing)
+* [Part 1](week5/lesson2_page1.md)
+* [Part 2](week5/lesson2_page2.md)
+* [Part 3](week5/lesson2_page3.md)
