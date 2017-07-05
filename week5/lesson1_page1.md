@@ -35,7 +35,7 @@ git remote add <partnerName> <linkToPartnerGitHubRepo>
 
 We will have `Station`s that will be passed to `Route`s, which will be passed to `Tram`s, and therefore it makes sense to create our objects in this order.
 
-1) Open up `js/stations.js` and define a new constructor called `Station`:
+1) Open up `js/station.js` and define a new constructor called `Station`:
 
 ```javascript
 function Station () {

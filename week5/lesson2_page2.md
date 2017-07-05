@@ -28,7 +28,7 @@ $.each(altrinchamToAshtonUnderLyne.getStations(), function (stationIndex, statio
 ```js
 $.each(altrinchamToAshtonUnderLyne.getStations(), function (stationIndex, station) {
   var stationHTML = '<div class="station">'
-  stationHTML += '<div class="circle ' + css + '"></div>'
+  stationHTML += '<div class="circle"></div>'
   stationHTML += '<div class="name">' + station.getName() + '</div>'
   stationHTML += '</div>'
 
@@ -51,7 +51,7 @@ $.each(altrinchamToAshtonUnderLyne.getStations(), function (stationIndex, statio
   var css = ''
 
   var stationHTML = '<div class="station">'
-  stationHTML += '<div class="circle ' + css + '"></div>'
+  stationHTML += '<div class="circle"></div>'
   stationHTML += '<div class="name">' + station.getName() + '</div>'
   stationHTML += '</div>'
 
