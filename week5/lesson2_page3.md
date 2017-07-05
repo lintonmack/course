@@ -87,7 +87,7 @@ $('#nextStationBtn').click(function () {
 ```js
 $('#nextStationBtn').click(function () {
   tram.drive()
-  updateDOM(altrinchamToAshtonUnderLyne, tram)
+  updateDOM()
 })
 ```
 
@@ -106,6 +106,10 @@ reset: function () {
 ```js
 $('#reset').click(function () {
   tram.reset()
-  updateDOM(altrinchamToAshtonUnderLyne, tram)
+  updateDOM()
 })
 ```
+
+## Finished?
+
+Add some extra styling (or Bootstrap?), commit and push up, and then start on the assignment.
