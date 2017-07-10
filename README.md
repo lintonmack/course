@@ -74,3 +74,12 @@
 * [Part 1](week5/lesson2_page1.md)
 * [Part 2](week5/lesson2_page2.md)
 * [Part 3](week5/lesson2_page3.md)
+
+## Week 6
+
+### AJAX
+
+* [Lecture](https://docs.google.com/presentation/d/1XZLQQzPJ6mdYt3EXdb-6OMaPsc9TvKy35z2Lb3kCXkg/edit?usp=sharing)
+* [Part 1](week6/lesson1_page1.md)
+* [Part 2](week6/lesson1_page2.md)
+* [Part 3](week6/lesson1_page3.md)
