@@ -18,7 +18,7 @@ function CurrencyConverter () {
 
 ```js
 function CurrencyConverter () {
-  this._rates = rates
+  this._rates = {}
 }
 ```
 
