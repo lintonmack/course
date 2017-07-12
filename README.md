@@ -83,3 +83,10 @@
 * [Part 1](week6/lesson1_page1.md)
 * [Part 2](week6/lesson1_page2.md)
 * [Part 3](week6/lesson1_page3.md)
+
+### Forms
+
+* [Lecture](https://docs.google.com/presentation/d/1q2NcXRgIQVjzOXOA-_KUdtg26df4eQMhWVzajyuyUGU/edit?usp=sharing)
+* [Part 1](week6/lesson2_page1.md)
+* [Part 2](week6/lesson2_page2.md)
+* [Part 3](week6/lesson2_page3.md)
