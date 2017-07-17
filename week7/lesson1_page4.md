@@ -182,4 +182,4 @@ Throw!? [Throw on W3Schools (basic explanation)](https://www.w3schools.com/jsref
 
 :twisted_rightwards_arrows: **Driver and Navigator switch roles**
 
-~~Continue to Part 5 (coming soon)~~
+[Continue to Part 5](lesson1_page5.md)
