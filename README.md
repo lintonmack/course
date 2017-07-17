@@ -90,3 +90,8 @@
 * [Part 1](week6/lesson2_page1.md)
 * [Part 2](week6/lesson2_page2.md)
 * [Part 3](week6/lesson2_page3.md)
+
+## Week 7
+
+* [Lecture](https://docs.google.com/presentation/d/1AiaUM8bLNAOIanNJZsyL5xHMBBgAP-SUexX03u-ipZk/edit?usp=sharing)
+* [Walkthrough](week7/lesson1_introduction.md)
