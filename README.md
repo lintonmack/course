@@ -93,5 +93,8 @@
 
 ## Week 7
 
+# TDD
 * [Lecture](https://docs.google.com/presentation/d/1AiaUM8bLNAOIanNJZsyL5xHMBBgAP-SUexX03u-ipZk/edit?usp=sharing)
+* [Lecture](https://docs.google.com/presentation/d/170lA9Jll7ELvBcKVej2NsjRuPnlSpwE92iNO0WPwf2w/edit?usp=sharing)
 * [Walkthrough](week7/lesson1_introduction.md)
+* [Assignment](week7/assignment.md)

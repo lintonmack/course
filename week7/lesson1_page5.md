@@ -1,5 +1,7 @@
 :twisted_rightwards_arrows: **Driver and Navigator switch roles if you haven't already done so**
 
+Feel free to switch roles as often as you see fit for this part of the walkthrough.
+
 ## I don’t want my ship to dock at a port if the port is full
 
 ```
@@ -133,6 +135,44 @@ dock: function (port) {
 ```
 
 6. Run your tests. You should be green.
+
+## Ports have capacity
+
+"I don’t want my ship to dock at a port if the port is full."
+
+Our port now knows what ships are docked in it, but it doesn't set a limit. We will say for the sake of this exercise that every port has a capacity of 8.
+
+1. Inside your `PortSpec.js`, add a new test `has a capacity`.
+
+2. `expect` `port.getCapacity()` `toEqual` `8`.
+
+3. Run the tests. The test `has a capacity` should fail. Use the top error of your stack trace to guide you, and go ahead and write the code to make the test pass.
+
+:exclamation_mark: Ask for your capacity code to be reviewed before you go any further!
+
+## Full capacity!
+
+4. Now inside `ShipSpec.js`, create a new test `doesn't dock if port at capacity`.
+
+5. Inside your test's callback, `dock` a `ship` at a `port` 8 times (use a for loop to do this!). Your port will now be at capacity.
+
+6. Now, still inside the callback, `expect` that when you `dock` a `ship` at a `port` it will throw an error `port is at capacity`.
+
+7. Run your tests. This test should fail. Again, write the code to make the test pass (hint below).
+
+***
+:bulb:
+
+This is a hard one. 
+
+1. `getShips` that the `port` has.
+2. Check if: 
+
+```
+getShips returned array length + 1 *is greater than* the port's capacity.
+```
+3. If yes (`true`) then throw an error.
+***
 
 ## Add, commit and push
 
