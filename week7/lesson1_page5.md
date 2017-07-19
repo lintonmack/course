@@ -148,7 +148,7 @@ Our port now knows what ships are docked in it, but it doesn't set a limit. We w
 
 3. Run the tests. The test `has a capacity` should fail. Use the top error of your stack trace to guide you, and go ahead and write the code to make the test pass.
 
-:exclamation_mark: Ask for your capacity code to be reviewed before you go any further!
+:exclamation: Ask for your capacity code to be reviewed before you go any further!
 
 ## Full capacity!
 
