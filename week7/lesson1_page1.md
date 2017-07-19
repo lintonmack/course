@@ -138,15 +138,15 @@ describe('Ship', function () {
 })
 ```
 
-8. Now we have a test, we need to add an *assertion*. Assertion's assert whether a method's return value is what we expect it to be. We can pass our method calls into Jasmine's `expect` function, which returns an object with assertion methods. The assertion method we will use is `.toEqual`, which takes a single argument: the value we expect our method to return. Go ahead and add the following:
+8. Now we have a test, we need to add an *assertion*. Assertion's assert whether a method's return value is what we expect it to be. We can pass our method calls into Jasmine's `expect` function, which returns an object with assertion methods. The assertion method we will use is `.toBe`, which takes a single argument: the value we expect our method to return. Go ahead and add the following:
 
 ```js
   it('has a starting port', function () {
-    expect(ship.getCurrentPort()).toEqual(port)
+    expect(ship.getCurrentPort()).toBe(port)
   })
 ```
 
-So we **expect** our `ship`'s (instance of `Ship`) `getCurrentPort` method to return a value that is equal to (`toEqual`) `port`.
+So we **expect** our `ship`'s (instance of `Ship`) `getCurrentPort` method to return a value that is equal to (`toBe`) `port`.
 
 9. Open `SpecRunner.html` in Chrome. You should see the test failing:
 

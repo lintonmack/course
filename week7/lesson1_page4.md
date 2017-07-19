@@ -47,10 +47,10 @@ it('has weather', function () {
 })
 ```
 
-6. Inside the callback `expect` `port.getWeather()` `toEqual` `weather`:
+6. Inside the callback `expect` `port.getWeather()` `toBe` `weather`:
 ```js
 it('has weather', function () {
-  expect(port.getWeather()).toEqual(weather)
+  expect(port.getWeather()).toBe(weather)
 })
 ```
 

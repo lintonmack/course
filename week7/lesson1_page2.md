@@ -96,7 +96,7 @@ it ('can dock at a port', function () {
 it ('can dock at a port', function () {
   ship.dock(arrivalPort)
 
-  expect(ship.getCurrentPort()).toEqual(arrivalPort)
+  expect(ship.getCurrentPort()).toBe(arrivalPort)
 })
 ``` 
 

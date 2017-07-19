@@ -68,7 +68,7 @@ it('can embark ships', function () {
 
 Think about a ship in real life. It sails itself to the port - the port doesn't pull it in. Our `Port` still has to keep track of the `Ship` though. Therefore, when our `Ship` is ready to `dock` at the port, we need to instruct `Port` to `embark` our `Ship`. We could do this manually, but it'd be much more user-friendly if `embark`ing at the port was  handled automatically for us, as its something we'll always need to do when we `dock` a ship: we need to test that our objects are calling methods on other objects - in this case that `Ship`'s `dock` method calls `Port`'s `embark` method.
 
-1. Inside `Ship.js` create a new test `is instructs the Port to embark`:
+1. Inside `ShipSpec.js` create a new test `is instructs the Port to embark`:
 
 ```js 
 it ('instructs the Port to embark', function () {
@@ -144,7 +144,7 @@ Our port now knows what ships are docked in it, but it doesn't set a limit. We w
 
 1. Inside your `PortSpec.js`, add a new test `has a capacity`.
 
-2. `expect` `port.getCapacity()` `toEqual` `8`.
+2. `expect` `port.getCapacity()` `toBe` `8`.
 
 3. Run the tests. The test `has a capacity` should fail. Use the top error of your stack trace to guide you, and go ahead and write the code to make the test pass.
 
