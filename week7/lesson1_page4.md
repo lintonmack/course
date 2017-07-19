@@ -135,7 +135,7 @@ Before, we had to `spyOn` `Math.random()`. This was to ensure that aside from th
 ***
 :bulb:
 
-Here we've had to wrap our `ship.setSail()` in an anonymous function. The reason is that we're expecting our code to throw an error - if `ship.setSail()` is allowed to run immediately then it will throw an error **before** Jasmine can assert an error has been thrown. The issue here is that the error will throw and halt the execution of the code, so Jasmine won't be able to run its assertions. By passing the method in an anonymous function, Jasmine will decide when it is called.
+Here we've had to wrap our `ship.setSail()` in an anonymous function. The reason is that we're expecting our code to throw an error - if `ship.setSail()` is allowed to run immediately then it will throw an error **before** Jasmine can assert an error has been thrown. The issue here is that the error will throw and halt the execution of the code, so Jasmine won't be able to run its assertions. By calling the method inside of an anonymous function, Jasmine will decide when it is called.
 ***
 
 5. Run your tests. You should fail:
