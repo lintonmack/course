@@ -31,7 +31,7 @@ A `Library` can have `Book`s, which hints at an array on a `Library` object.
 
 The test for `has no books when instantiated` should expect a getter method on `Library` to return an empty array. See [toHaveLength docs](https://facebook.github.io/jest/docs/expect.html#tohavelengthnumber) on Jest.
 
-The test for `can have a book added` should call a setter method to add to the `Library`'s `Book`'s and then assert on a getter method to check the book has been added to the library.
+The test for `can have a book added` should call a setter method to add a `Book` to the `Library`'s `_books`'s and then assert on a getter method (the same one created to pass the first test) to check the book has been added to the library.
 ***
 
 ~~Continue to part 5~~ (coming soon)
