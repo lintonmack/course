@@ -98,3 +98,9 @@
 * [Lecture - Agile](https://docs.google.com/presentation/d/170lA9Jll7ELvBcKVej2NsjRuPnlSpwE92iNO0WPwf2w/edit?usp=sharing)
 * [Walkthrough](week7/lesson1_introduction.md)
 * [Assignment](week7/assignment.md)
+
+## Week 8
+
+### Node.js and npm
+* [Lecture - Node.js and npm](https://docs.google.com/presentation/d/1T4cMILYrdlwbAX_eZCu6q7zBtV7bP2NXfQhsjYosxCk/edit?usp=sharing)
+* [Walkthrough](week8/lesson1_introduction.md)
