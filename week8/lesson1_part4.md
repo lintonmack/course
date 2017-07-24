@@ -1,3 +1,5 @@
+:twisted_rightwards_arrows: **Driver and Navigator switch roles if you haven't already done so**
+
 ## Library
 
 ```
@@ -33,5 +35,9 @@ The test for `has no books when instantiated` should expect a getter method on `
 
 The test for `can have a book added` should call a setter method to add a `Book` to the `Library`'s `_books`'s and then assert on a getter method (the same one created to pass the first test) to check the book has been added to the library.
 ***
+
+## Add, commit and push
+
+:twisted_rightwards_arrows: **Driver and Navigator switch roles**
 
 ~~Continue to part 5~~ (coming soon)
