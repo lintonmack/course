@@ -169,7 +169,7 @@ test('outputs content from chapter file', function () {
 
 We need to check that the contents of `sampleChapter.txt` matches what is outputted by the `read` method on `chapter`. To do that, we need to use Node.js' `fs` module to read files. 
 
-1. At the top of your `Chapter.spec.js` file, `require` the `fs` module and assign it to a new variable named `fs`:
+1. At the top of your `Chapter.test.js` file, `require` the `fs` module and assign it to a new variable named `fs`:
 
 ```js
 var fs = require('fs')
