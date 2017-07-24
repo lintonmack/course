@@ -18,6 +18,14 @@ git clone git@github.com:MCRcodes/kindle.git
 
 4. Add yours and your partner's remotes.
 
+## .gitignore
+
+We need to ignore the `/node_modules` folder that gets created when we use npm to install dependencies. To do so, create a new `.gitignore` file (no extension) inside your project root folder and add:
+
+```
+node_modules/
+```
+
 ## Testing - Installing Jest
 
 For our unit tests, we are going to be using the test runner [Jest](https://facebook.github.io/jest/). *Jest* has a similar syntax to Jasmine, but is intended to run on Node.js (and as such, we run our tests in the command line).
