@@ -62,6 +62,18 @@ When we run `npm install` to install packages in a package.json, then it will in
 npm install -g jest
 ```
 
+If the above doesn't work, try running: 
+
+```bash
+sudo npm install -g jest
+```
+
+***
+:bulb:
+
+sudo means: run command as administrator.
+***
+
 ## Creating our first test
 
 ```

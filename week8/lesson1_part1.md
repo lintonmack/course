@@ -21,7 +21,7 @@ Homebrew is a package manager for OS X that allows us to easily install new comm
 4. In the command line run:
 
 ```
-brew install node@6
+brew install node
 ```
 
 5. Then check to see you have Node.js and npm installed by typing:
@@ -39,8 +39,8 @@ Fortunately for Linux users running on Ubuntu (or a Ubuntu based OS), installing
 
 ```
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-sudo apt-get install -y nodejs
 sudo apt-get install -y build-essential
+sudo apt-get install -y nodejs
 ```
 
 Then check to see you have Node.js and npm installed by typing:
