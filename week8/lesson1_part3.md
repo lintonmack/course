@@ -39,3 +39,5 @@ We will therefore just assume `Book` to be an object that takes an array of `Cha
 ![Book passing](images/booksPassing.png)
 
 :twisted_rightwards_arrows: **Driver and Navigator switch roles**
+
+[Continue to part 4](lesson1_part4.md)
