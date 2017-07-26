@@ -40,4 +40,4 @@ The test for `can have a book added` should call a setter method to add a `Book`
 
 :twisted_rightwards_arrows: **Driver and Navigator switch roles**
 
-~~Continue to part 5~~ (coming soon)
+[Continue to part 5](lesson1_part5.md)
