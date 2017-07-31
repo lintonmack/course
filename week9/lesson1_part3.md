@@ -128,7 +128,7 @@ The second parameter of `res.render` is the data we wish to pass into the templa
 
 ```html
   <ul>
-    {{#each}}
+    {{#each toDos}}
 
     {{/each}}
   </ul>
@@ -138,7 +138,7 @@ The second parameter of `res.render` is the data we wish to pass into the templa
 
 ```html
   <ul>
-    {{#each}}
+    {{#each toDos}}
       <li>{{task}}</li>
     {{/each}}
   </ul>
@@ -154,7 +154,7 @@ Handlebars is very powerful. Read more about its [built-in helpers](http://handl
 
 ```html
   <ul>
-    {{#each}}
+    {{#each toDos}}
       <li data-id="{{id}}">{{task}}</li>
     {{/each}}
   </ul>
