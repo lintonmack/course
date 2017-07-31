@@ -175,4 +175,4 @@ Here we tell Express that our assets such as images, CSS and frontend JavaScript
 
 :twisted_rightwards_arrows: **Driver and Navigator switch roles**
 
-[Next](lesson1_page3.md)
+[Next](lesson1_part3.md)
