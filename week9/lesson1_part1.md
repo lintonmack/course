@@ -33,7 +33,7 @@ If it doesn't work, try again with `sudo`.
 npm install --save express
 ```
 
-3. Create a `.gitignore` folder add add:
+3. Create a `.gitignore` file and add:
 
 ```
 node_modules/
