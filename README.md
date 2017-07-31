@@ -104,3 +104,9 @@
 ### Node.js and npm
 * [Lecture - Node.js and npm](https://docs.google.com/presentation/d/1T4cMILYrdlwbAX_eZCu6q7zBtV7bP2NXfQhsjYosxCk/edit?usp=sharing)
 * [Walkthrough](week8/lesson1_introduction.md)
+
+## Week 9
+
+### Express
+* [Lecture](https://docs.google.com/presentation/d/1F-zxL8dXvCuzSnG_3sCPRJelDKt9ZlMwb-Bd47Tc-tQ/edit?usp=sharing)
+* [Walkthrough](week9/lesson1_part1.md)
