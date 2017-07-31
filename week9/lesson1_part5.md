@@ -36,7 +36,13 @@ All of our JavaScript so far has been server-side. Now we actually need some JS 
 
 1. Create a new folder in `public` called `js` and create a new file called `main.js`.
 
-2. Inside `main.js`, find all of the `li` elements on the page and assign them to `listItems`:
+2. Inside `main.hbs` add a `script` tag right before the closing `body` tag:
+
+```html
+<script src="js/main.js" type="text/javascript"></script>
+```
+
+3. Inside `main.js`, find all of the `li` elements on the page and assign them to `listItems`:
 
 ```js
 var listItems = document.querySelectorAll('li')
@@ -48,7 +54,7 @@ var listItems = document.querySelectorAll('li')
 `querySelectorAll` will find all elements on a page that match the given CSS selector, and will return them in a *NodeList* - an array of DOM elements. [Read more on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll).
 ***
 
-3. Now we'll use another ES6 function [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) to loop through our `listItems` array. forEach takes a callback function - the first argument passed to the callback is the current item in the array:
+4. Now we'll use another ES6 function [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) to loop through our `listItems` array. forEach takes a callback function - the first argument passed to the callback is the current item in the array:
 
 ```js
 toDoItems.forEach(function (item) {
@@ -58,7 +64,7 @@ toDoItems.forEach(function (item) {
 
 `item` here refers to a single DOM element from the `listItems` NodeList.
 
-4. Now inside the forEach block, we want to attach a click event listener to each item:
+5. Now inside the forEach block, we want to attach a click event listener to each item:
 
 ```js
 toDoItems.forEach(function (item) {
@@ -76,7 +82,7 @@ toDoItems.forEach(function (item) {
 [addEventListener on MDN](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 ***
 
-5. Now inside the `addEventListener` callback, assign the `data-id` attribute of the element to a new variable named `id`:
+6. Now inside the `addEventListener` callback, assign the `data-id` attribute of the element to a new variable named `id`:
 
 ```js
 toDoItems.forEach(function (item) {
@@ -86,7 +92,7 @@ toDoItems.forEach(function (item) {
 })
 ```
 
-6. Lastly, we make an AJAX `DELETE` request to `/<id>`:
+7. Lastly, we make an AJAX `DELETE` request to `/<id>`:
 
 ```js
 toDoItems.forEach(function (item) {
@@ -113,7 +119,7 @@ toDoItems.forEach(function (item) {
 We've seen some of this before. The key difference here is we're specifying `DELETE` now instead of `GET`. We're also telling the server we're sending data to (in this case our own server) that the content-type is urlencoded (form data). Lastly, in our `send` method, we actually provide some data to send to the server (the server expects data on POST and DELETE requests as they are manipulating actions). The format for sending form data is `propertyname=propertyvalue` (for multiple properties, join with `&`).
 ***
 
-7. Now we just need a `delete` route handler. Inside `toDoController.js`, after the `app.post` block, call `app.delete` and pass in `/`, `urlencodedParser` and a callback function with the params `req` and `res`:
+8. Now we just need a `delete` route handler. Inside `toDoController.js`, after the `app.post` block, call `app.delete` and pass in `/`, `urlencodedParser` and a callback function with the params `req` and `res`:
 
 ```js
 app.delete('/', urlencodedParser, function (req, res) {
@@ -121,13 +127,13 @@ app.delete('/', urlencodedParser, function (req, res) {
 })
 ```
 
-8. Inside the callback, call `removeItem` on `toDos` and pass in `req.body.id`:
+9. Inside the callback, call `removeItem` on `toDos` and pass in `req.body.id`:
 
 ```js
   toDos.removeItem(req.body.id)
 ```
 
-9. Finally, render the list again:
+10. Finally, render the list again:
 
 ```js
   app.delete('/', urlencodedParser, function (req, res) {
@@ -139,4 +145,4 @@ app.delete('/', urlencodedParser, function (req, res) {
   })
 ```
 
-10. Try in your browser. Your to-do list should now be fully functional.
+11. Try in your browser. Your to-do list should now be fully functional.
