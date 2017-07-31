@@ -42,10 +42,10 @@ All of our JavaScript so far has been server-side. Now we actually need some JS 
 <script src="js/main.js" type="text/javascript"></script>
 ```
 
-3. Inside `main.js`, find all of the `li` elements on the page and assign them to `listItems`:
+3. Inside `main.js`, find all of the `li` elements on the page and assign them to `toDoItems`:
 
 ```js
-var listItems = document.querySelectorAll('li')
+var toDoItems = document.querySelectorAll('li')
 ```
 
 ***
@@ -54,7 +54,7 @@ var listItems = document.querySelectorAll('li')
 `querySelectorAll` will find all elements on a page that match the given CSS selector, and will return them in a *NodeList* - an array of DOM elements. [Read more on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll).
 ***
 
-4. Now we'll use another ES6 function [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) to loop through our `listItems` array. forEach takes a callback function - the first argument passed to the callback is the current item in the array:
+4. Now we'll use another ES6 function [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) to loop through our `toDoItems` array. forEach takes a callback function - the first argument passed to the callback is the current item in the array:
 
 ```js
 toDoItems.forEach(function (item) {
@@ -62,7 +62,7 @@ toDoItems.forEach(function (item) {
 })
 ```
 
-`item` here refers to a single DOM element from the `listItems` NodeList.
+`item` here refers to a single DOM element from the `toDoItems` NodeList.
 
 5. Now inside the forEach block, we want to attach a click event listener to each item:
 
