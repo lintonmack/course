@@ -68,13 +68,17 @@ Save, and run `git status` in the command line to ensure `settings.env` isn't be
 
 ## Including dotenv
 
-Add the following line in `app.js` at the very top of the file:
+Add the following in `app.js` at the very top of the file:
 
 ```js
-require('dotenv').config()
+var path = require('path')
+
+require('dotenv').config({
+  path: path.join(__dirname, 'settings.env')
+})
 ```
 
-It doesn't need to be assigned to a variable, as it executes straight away, looking for `.env` files and assigning the variables to the global `process.env` object.
+It doesn't need to be assigned to a variable, as it executes straight away, looking for `.env` files and assigning the variables to the global `process.env` object. We specify a `path` property so we only include the environment variables inside `settings.env` (it will look for any `.env` file in our folder by default).
 
 ## Mongoose - connecting to the database
 
