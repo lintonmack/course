@@ -62,6 +62,6 @@ Here we pass in a field name of `_id` to our selector (`{}`) with a value of the
 
 Again, we wait for the remove action to take place before rendering our page, so the item doesn't still show on the page in our response.
 
-Now give your application a go. Everything should be working. If you click on the `Collections` tab in mLab you can even see your data as it appears in the database!
+Now give your application a go. Everything should be working. If you click on the `Collections` tab in mLab you can even see your data as it appears in the database! You may also notice that the collection storing our documents is called `todos`. Mongoose pluralises and lowercases our model name into a collection name. It is good practice for collections to adopt a lowercase or lowerCamelCase naming convention.
 
 :tada:
