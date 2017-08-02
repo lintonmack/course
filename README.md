@@ -110,3 +110,8 @@
 ### Express
 * [Lecture](https://docs.google.com/presentation/d/1F-zxL8dXvCuzSnG_3sCPRJelDKt9ZlMwb-Bd47Tc-tQ/edit?usp=sharing)
 * [Walkthrough](week9/lesson1_part1.md)
+
+### MongoDB
+
+* [Lecture](https://docs.google.com/presentation/d/1o33_C_VghS3U1iF72tUO_ZGOMtniVcOiAHenRCcIxBs/edit?usp=sharing)
+* [Walkthrough](week9/lesson2_part1.md)
