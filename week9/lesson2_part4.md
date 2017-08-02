@@ -65,3 +65,5 @@ Again, we wait for the remove action to take place before rendering our page, so
 Now give your application a go. Everything should be working. If you click on the `Collections` tab in mLab you can even see your data as it appears in the database! You may also notice that the collection storing our documents is called `todos`. Mongoose pluralises and lowercases our model name into a collection name. It is good practice for collections to adopt a lowercase or lowerCamelCase naming convention.
 
 :tada:
+
+[Assignment](assignment.md)
