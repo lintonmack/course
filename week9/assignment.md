@@ -7,5 +7,5 @@ The guest book should have multiple inputs: a `person` text input, and a `commen
 You should be able to delete comments.
 
 ### Bonus points
-* Store the current date on each document in a createdAt field.
-* Sort the comments on the page by date in descending order (newest first).
+* Store the [current date](https://stackoverflow.com/questions/1531093/how-do-i-get-the-current-date-in-javascript) on each document in a `createdAt` field.
+* [Sort the comments on the page by date in descending order](http://mongoosejs.com/docs/api.html#query_Query-sort) (newest first).
