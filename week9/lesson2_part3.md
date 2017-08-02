@@ -34,6 +34,8 @@ ToDo.find({}, function (error, results) {
 })
 ```
 
+The second argument passed in a `<model>.find()` callback is an array of results from the query. We assign this array to `results` and then we pass this to our Handlebars template, so we can do `{{#each}}` on the array to render our results.
+
 We should throw an error if there is one:
 
 ```js
