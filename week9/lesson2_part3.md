@@ -2,7 +2,7 @@
 
 ## Retrieving ToDo Items
 
-Inside `toDosController.js`, find the `app.get` `/` route handler. At the top of the callback function block add:
+Inside `toDoController.js`, find the `app.get` `/` route handler. At the top of the callback function block add:
 
 ```js
 ToDo.find({}, function (error, results) {
