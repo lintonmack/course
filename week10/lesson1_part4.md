@@ -1,6 +1,6 @@
 :twisted_rightwards_arrows: **Driver and Navigator switch roles if you haven't already done so**
 
-## Testing an Express route for login
+## Testing a controller for login
 
 We need to test the callbacks we will pass to Express route handlers (i.e. `app.get` and `app.post`) to ensure that they make calls to our models. These callbacks are essentially our controllers. We need to abstract them away from the route handlers though, so we can access them inside of our tests.
 
