@@ -22,4 +22,8 @@ Inside the object literal, add a property of `emailAddress`, with a value of `he
 
 7. Now expect your spy to have been called with `req.body.emailAddress` and `req.body.password`.
 
+Done? Ask for a code review.
+
+8. Run your tests. You should fail with `TypeError: usersRoutes.login is not a function`.
+
 [Continue to part 5](lesson1_part5.md)
