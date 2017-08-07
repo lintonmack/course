@@ -117,3 +117,7 @@
 * [Walkthrough](week9/lesson2_part1.md)
 
 ### [Assignment](week9/assignment.md)
+
+## Week 10
+* [Lecture](https://docs.google.com/presentation/d/1mDKt-wB8yPhP-rQrj5sol9qQ4hZ-ctUDa_plRw_mwbQ/edit?usp=sharing)
+* [Walkthrough](week10/lesson1_part1.md)
