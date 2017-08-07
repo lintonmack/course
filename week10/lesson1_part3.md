@@ -85,4 +85,8 @@ User.findOne({
 Remember, documents inside collections are of a JSON-like format. We can therefore query collections by passing in objects with matching property names.
 ***
 
+## Add, commit and push
+
+:twisted_rightwards_arrows: **Driver and Navigator switch roles**
+
 [Continue to part 4](lesson1_part4.md)

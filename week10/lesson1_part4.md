@@ -26,4 +26,8 @@ Done? Ask for a code review.
 
 8. Run your tests. You should fail with `TypeError: usersRoutes.login is not a function`.
 
+## Add, commit and push
+
+:twisted_rightwards_arrows: **Driver and Navigator switch roles**
+
 [Continue to part 5](lesson1_part5.md)
