@@ -10,7 +10,7 @@ We will have static methods for `login` and `register` on our `User` model, that
 
 1. Create a new test inside `User.test.js` for `login requests user with matching email address and password`.
 
-2. Inside the callback function, call `spyOn`. Pass `User` as the first argument and `'findOne'` as the second argument. [Refresh your knowledge on spies](https://github.com/MCRcodes/course/blob/master/week7/lesson1_page5.md).
+2. Inside the callback function, call `spyOn`. Pass `User` as the first argument and `'findOne'` as the second argument. Assign the return value to a variable named `spy`. [Refresh your knowledge on spies](https://github.com/MCRcodes/course/blob/master/week7/lesson1_page5.md).
 
 3. Next, create an object literal with properties `emailAddress` and `password`, and provide dummy (but valid) values. Assign it to variable `user`:
 
