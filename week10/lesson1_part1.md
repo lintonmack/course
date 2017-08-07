@@ -113,3 +113,5 @@ sudo service mongod stop
 ### Windows
 
 See [Run MongoDB Community Edition](https://docs.mongodb.com/master/tutorial/install-mongodb-on-windows/#run-mongodb-community-edition) on MongoDB Docs.
+
+[Continue to part 2](lesson1_part2.md)
