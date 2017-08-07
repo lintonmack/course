@@ -16,15 +16,15 @@ Add a `body` property to your `req` object. Set its value to an empty object lit
 
 Inside the object literal, add a property of `emailAddress`, with a value of `hello@world.com`, and a property of `password` with a value of `password123`.
 
-5. We're going to abstract our callback functions into an object exported from a file stored inside of a `routes` folder (don't make it yet). For now, assume it exists. At the top of `User.test.js`, require in `../routes/usersRoutes.js`, and assign the exported object to a variable named `usersRoutes`.
+5. We're going to abstract our callback functions into an object exported from a file stored inside of a `controllers` folder (don't make it yet). For now, assume it exists. At the top of `User.test.js`, require in `../controllers/usersControllers.js`, and assign the exported object to a variable named `usersControllers`.
 
-6. Back inside your `test` callback, call the `login` method on the `usersRoutes` object. Pass in `req` and `res` as arguments.
+6. Back inside your `test` callback, call the `login` method on the `usersControllers` object. Pass in `req` and `res` as arguments.
 
 7. Now expect your spy to have been called with `req.body.emailAddress` and `req.body.password`.
 
 Done? Ask for a code review.
 
-8. Run your tests. You should fail with `TypeError: usersRoutes.login is not a function`.
+8. Run your tests. You should fail with `TypeError: usersControllers.login is not a function`.
 
 ## Add, commit and push
 
