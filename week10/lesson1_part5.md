@@ -24,7 +24,7 @@ But it was not called.
 
 7. The spy refers to `User.login`, so require in the `User` model into your `usersControllers.js` file, and assign the exported object to `User`.
 
-8. Now inside your method, call `User.login` and pass in `req.body.emailAddress` and `req.body.password` as arguments.
+8. Now inside your method, call `User.login` and pass in a `req.body` argument.
 
 9. Run your tests. You should pass.
 

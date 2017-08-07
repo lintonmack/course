@@ -20,7 +20,7 @@ Inside the object literal, add a property of `emailAddress`, with a value of `he
 
 6. Back inside your `test` callback, call the `login` method on the `usersControllers` object. Pass in `req` and `res` as arguments.
 
-7. Now expect your spy to have been called with `req.body.emailAddress` and `req.body.password`.
+7. Now expect your spy to have been called with `req.body`.
 
 Done? Ask for a code review.
 
