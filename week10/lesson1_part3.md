@@ -85,20 +85,4 @@ User.findOne({
 Remember, documents inside collections are of a JSON-like format. We can therefore query collections by passing in objects with matching property names.
 ***
 
-### Register - Test
-
-1. Create a new test inside `User.test.js` for `register inserts a user with email and password`.
-
-2. Inside the callback function, call `spyOn`. Pass `User` as the first argument and `'insert'` as the second argument.
-
-3. Next, create an object literal with properties `emailAddress` and `password`, and provide dummy (but valid) values. Assign it to variable `user`.
-
-4. Create a new variable named `callback` and assign to it `jest.fn().
-
-5. Now call the `register` method on `User`, and pass in arguments `user` and `callback`.
-
-6. `expect` `spy` `toHaveBeenCalledWith` `user` and `callback`:
-
-```js
-expect(spy).toHaveBeenCalledWith(user, callback)
-```
+[Continue to part 4](lesson1_part4.md)
