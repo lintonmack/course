@@ -24,7 +24,7 @@ Inside the object literal, add a property of `emailAddress`, with a value of `he
 
 Done? Ask for a code review.
 
-8. Run your tests. You should fail with `TypeError: usersControllers.login is not a function`.
+8. Run your tests. You should fail with `Cannot find module '../controllers/usersControllers.js' from 'Users.test.js'`.
 
 ## Add, commit and push
 
