@@ -51,3 +51,5 @@ test('can login if registered', function (done) {
 ```
 
 Here we run our `register` static method, and we call the `login` method in the callback. This is so `register` has chance to finish, before we try and login. We then expect there not to be any errors, and we expect to have a result.
+
+[Continue to part 9](lesson1_part9.md)
