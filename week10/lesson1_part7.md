@@ -1,5 +1,19 @@
 :twisted_rightwards_arrows: **Driver and Navigator switch roles if you haven't already done so**
 
+## Wiping our database before each test
+
+We need to ensure that we wipe our database before each test, so we have complete control over the state in which our tests run. Add the following `beforeEach` to `User.test.js`:
+
+```js
+beforeEach(function (done) {
+  User.remove({}, function () {
+    done()
+  })
+})
+```
+
+Here we remove all the documents from the `users` collection. `remove` is a database write action and therefore is asyncronous so we have to pass in the `done` parameter and call it as we did previously.
+
 ## Testing the controller for `post.register`
 
 1. Inside `User.test.js`, add a new test `register static is called when we post to the register route`.
