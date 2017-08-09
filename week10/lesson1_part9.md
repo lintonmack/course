@@ -53,3 +53,5 @@ Inside `usersController.js`, modify the `login` method to look as follows:
 To break this down, we've added a `next` parameter, which in Express is an action to take when the router handler has finished. We can use this `next` parameter to pass a callback in our test so we can call `done()` and make Jest wait. 
 
 Inside our `User.login` callback, we are also setting `req.user.session` to the result of the query. When we eventually hook up our code to Express and we configure sessions, the resulting user will be stored as a session on the server.
+
+Now run your tests. You should pass the test in question, but the modifications will have broken the test `login static is called when we post to the login route`. The reason is that we expect the spy in that test to be called with one argument, and it's now being called with two. You could fix this test by passing in a mock to the `usersController.login` as a third parameter, and by asserting it, but actually we can remove this test altogether. The reason being that we're testing the login static is called as part of our new test!
