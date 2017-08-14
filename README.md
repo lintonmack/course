@@ -119,5 +119,12 @@
 ### [Assignment](week9/assignment.md)
 
 ## Week 10
-* [Lecture](https://docs.google.com/presentation/d/1mDKt-wB8yPhP-rQrj5sol9qQ4hZ-ctUDa_plRw_mwbQ/edit?usp=sharing)
+
 * [Walkthrough](week10/lesson1_part1.md)
+
+## Week 11
+
+* [Lecture](https://docs.google.com/presentation/d/1mDKt-wB8yPhP-rQrj5sol9qQ4hZ-ctUDa_plRw_mwbQ/edit?usp=sharing)
+* [Week 10 Amendment - Part 7](week11/_week10_amendment_part7.md)
+* [Week 10 Amendment - Part 9](week11/_week10_amendment_part9.md)
+* [Walkthrough](week11/lesson1_part1.md)
