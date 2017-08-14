@@ -1,6 +1,6 @@
 :twisted_rightwards_arrows: **Driver and Navigator switch roles if you haven't already done so**
 
-## The test
+## Testing for logout
 
 ```js
 test('logout clears the session', function () {
