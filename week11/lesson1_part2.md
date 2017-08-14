@@ -20,6 +20,8 @@
 var bodyParser = require('body-parser')
 ```
 
+2. Install the `body-parser` npm package and save it to your dependencies.
+
 3. Before the `usersRoutes` function, add: 
 
 ```js
