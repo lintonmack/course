@@ -1,3 +1,5 @@
+Continuing on from last week.
+
 :twisted_rightwards_arrows: **Driver and Navigator switch roles if you haven't already done so**
 
 ## Setting up Express

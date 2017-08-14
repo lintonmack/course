@@ -11,3 +11,7 @@ Try and be creative and move around the existing HTML to make your work your own
 Be sure to utilise [Google Fonts](https://fonts.google.com/) and [Font Awesome](http://fontawesome.io/). 
 
 [Coolors](https://coolors.co/) and [0to255.com](http://www.0to255.com/) are also very good for colours.
+
+## Passing data to the layout file
+
+When you pass data to a template, it automatically becomes available inside the header. Therefore, if you want current user information to display in the header then you should pass `{ currentUser: req.session.user }` into all of your `res.render` calls as a second argument.
