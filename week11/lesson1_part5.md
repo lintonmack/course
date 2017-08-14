@@ -15,3 +15,9 @@ When we go to `/logout`, we want our session to be cleared and then to be redire
 
 As you may have guessed `res.redirect(...)` will redirect the user to whichever route is specified. 
 ***
+
+## Add, commit and push
+
+:twisted_rightwards_arrows: **Driver and Navigator switch roles**
+
+[Continue to part 6](lesson1_part6.md)
