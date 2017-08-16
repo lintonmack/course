@@ -60,7 +60,13 @@ editProfile: function (user, callback) {
 
 ```js
 app.get('/editprofile', function (req, res) {
-  res.render('editprofile', { currentUser: req.session.user })
+  User.findOne({ _id: req.session.user._id }, function (error, result) {
+    if (error) {
+      res.send('An error occurred')
+    } else {
+      res.render('editprofile', { currentUser: result })
+    }
+  })
 })
 
 app.post('/editprofile', urlencodedParser, usersControllers.editProfile, function (req, res) {
