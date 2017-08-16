@@ -55,7 +55,9 @@ app.get('/profiles/:userId', function (req, res) {
 
 ### profile.hbs
 
+```html
 <div>
   <strong>Bio</strong> {{user.bio}}
   <strong>Home Town</strong> {{user.homeTown}}
 </div>
+```
