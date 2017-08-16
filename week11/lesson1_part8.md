@@ -22,6 +22,8 @@ test('can edit profile', function () {
 
 ### Schema
 
+We add two extra fields to the schema: `homeTown` and `bio`. We set them to `required: false`, as we don't need them when users first register accounts.
+
 ```js
 var UserSchema = new mongoose.Schema({
   emailAddress: {
@@ -55,6 +57,12 @@ editProfile: function (user, callback) {
   }, callback)
 }
 ```
+
+***
+:bulb:
+
+`<Collection>.update` takes the document's ID you wish to update as the first argument. The second argument is a **modifier**. We can pass in operators such as `$set` (change the value of), `$push` (add to array) and `$pull` (pull from array). [$set on MongoDB](https://docs.mongodb.com/manual/reference/operator/update/set/)
+***
 
 ### Routes
 
