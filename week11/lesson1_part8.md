@@ -82,6 +82,12 @@ app.post('/editprofile', urlencodedParser, usersControllers.editProfile, functio
 })
 ```
 
+***
+:bulb:
+
+The user session only stores the user's email address, password and _id (as this is what we set in our `User.login` call). Therefore we pass the user's `_id` to `User.findOne` to get back the user's full document, which we then pass to the `editprofile` template.
+***
+
 ### Controller
 
 ```js
