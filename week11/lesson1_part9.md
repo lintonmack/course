@@ -73,3 +73,7 @@ app.get('/profiles/:userId', function (req, res) {
   <strong>Home Town</strong> {{user.homeTown}}
 </div>
 ```
+
+## Exemplar
+
+You can find an exemplar for these walkthroughs [here](https://github.com/MCRcodes/social-network-exemplar).
