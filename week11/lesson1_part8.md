@@ -20,6 +20,29 @@ test('can edit profile', function () {
 })
 ```
 
+### Schema
+
+```js
+var UserSchema = new mongoose.Schema({
+  emailAddress: {
+    type: String,
+    required: [true, 'Email address is required.'],
+    validate: [function (value) {
+      return validator.isEmail(value)
+    }, 'Email address isn\'t valid.']
+  },
+  password: String,
+  homeTown: {
+    type: String,
+    required: false
+  },
+  bio: {
+    type: String,
+    required: false
+  }
+})
+```
+
 ### User.js static method
 
 ```js
