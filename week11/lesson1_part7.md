@@ -75,4 +75,8 @@ Change your test to:
 
 Here we've used `Object.assign` to create a clone of the `user` object. Any changes to `user` won't be reflected in `userClone`, as `userClone` is now a completely unique object. We pass `userClone` to `User.login` instead of `user` as `user.password` has been modified at this point.
 
+## Add, commit and push
+
+:twisted_rightwards_arrows: **Driver and Navigator switch roles**
+
 [Continue to part 8](lesson1_part8.md)

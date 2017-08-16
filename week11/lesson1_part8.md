@@ -97,3 +97,5 @@ editProfile: function (req, res, next) {
   <button type="submit">Edit Profile</button>
 </form>
 ```
+
+[Continue to part 9](lesson1_part9.md)
