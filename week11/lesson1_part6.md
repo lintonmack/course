@@ -15,3 +15,9 @@ Be sure to utilise [Google Fonts](https://fonts.google.com/) and [Font Awesome](
 ## Passing data to the layout file
 
 When you pass data to a template, it automatically becomes available inside the header. Therefore, if you want current user information to display in the header then you should pass `{ currentUser: req.session.user }` into all of your `res.render` calls as a second argument.
+
+## Add, commit and push
+
+:twisted_rightwards_arrows: **Driver and Navigator switch roles**
+
+[Continue to part 7](lesson1_part7.md)
