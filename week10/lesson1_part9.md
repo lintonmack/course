@@ -13,17 +13,17 @@ npm install --save client-sessions
 
 ## Test - `usersControllers.login` creates a session
 
-1. Add a new test to `User.test.js` called `login static creates a session`.
+1. Add a new test to `User.test.js` called `login controller creates a session`.
 
 2. Inside the callback, create `req` and `res` objects and add `req.body`, `req.body.emailAddress` and `req.body.password`, as you did in the previous test.
 
 3. To store our sessions with `client-sessions`, we store our session data on `req.user`. We're going to store the user's email address. Add a `user` property to your `req` object, and assign to it an empty object literal.
 
-4. Call `User.register` and pass in `user` as the first argument, and an anonymous function as the second argument (its callback function).
+4. Call `User.register` and pass in `req.body` as the first argument, and an anonymous function as the second argument (its callback function).
 
-5. Inside the callback function, call `User.login` and pass `req`, `res` as the first two arguments and an anonymous function as a third argument.
+5. Inside the callback function, call `usersControllers.login` and pass `req`, `res` as the first two arguments and an anonymous function as a third argument.
 
-6. Inside the `User.login` callback, expect `req.user.session` not to be undefined. Then call `done()`.
+6. Inside the `usersControllers.login` callback, expect `req.user.session` not to be undefined. Then call `done()`.
 
 ***
 :bulb:
